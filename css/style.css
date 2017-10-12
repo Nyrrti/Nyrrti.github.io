@@ -43,6 +43,7 @@ p.description {
 
 p.text {
     text-align: left;
+    font-size: 0.95rem;
 }
 
 p.email {
@@ -296,11 +297,9 @@ form, input, label {
 }
 
 .card-bg {
-    background-color: #1f2124;
+    background-color: #212326;
 }
-.card-block {
-    padding: 10px;
-}
+
 .card-deck .card:not(:first-child){
     margin-left: 5px;
 }
@@ -312,7 +311,7 @@ form, input, label {
     border: 0px dotted #08384d
 }
 .footer-bg {
-    background-color: #1f2124;
+    background-color: #1f2226;
 }
 .card-header {
      background-color: #1e2024;
