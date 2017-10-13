@@ -96,7 +96,7 @@ hr.style2 {
 }
 
 hr.style1 {
-    max-width: 340px;
+    max-width: 320px;
     margin: 0 auto;
     border-bottom: 1px dotted #404447;
 }
@@ -301,7 +301,7 @@ form, input, label {
 }
 
 .card-bg {
-    background-color: #212326;
+    background-color: #1f2226;
 }
 
 .card-deck .card:not(:first-child){
