@@ -389,3 +389,11 @@ form, input, label {
     font-size: 1em;
     }
 }
+
+/* Extra Large devices (desktops, 2000px and up) */
+@media (min-width: 2000px) {
+    .navbg {
+    background-image: url(../images/bg1xxl.png);
+}
+
+}
