@@ -271,18 +271,9 @@ li.description{
     border: 1px dotted #08384d;
 }
 
-#form_email {
-    background: #1f2226;
+.form-control {
+    background-color: #1f2226;
 }
-
-#form_name {
-    background: #1f2226;
-}
-
-#form_message {
-    background: #1f2226;
-}
-
 form, input, label {
     color: white;
 }
