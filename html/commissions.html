@@ -75,7 +75,7 @@
                         </div>
                             <div class="card-footer" style="border: 0px">
                               <!-- Large modal -->
-                                <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+                                <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Order Here</button>
 
                                 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                                   <div class="modal-dialog modal-lg">
@@ -89,8 +89,8 @@
                                         </div>
                                         <!-- START OF CONTENT -->
                                         <div class="col-11 col-lg-10 mx-auto">
-                                             <form class="">
-                                                <div class="col-8 py-3">
+                                             <form class="text-left">
+                                                <div class="col-12 col-lg-8 py-3 pl-0">
                                                     <div class="form-group">
                                                         <label class="form-control-label" for="formGroupExampleInput">Name</label>
                                                         <input type="text" class="form-control" id="orderform_name" placeholder="Name">
@@ -104,16 +104,23 @@
                                                   <div class="form-group">
                                                     <label for="exampleFormControlSelect1">Commission Type</label>
                                                     <select class="form-control" id="exampleFormControlSelect1">
-                                                        <option>...</option>
-                                                        <option>Portrait Sketch</option>
-                                                        <option>Portrait Speedpaint</option>
-                                                        <option>Portrait Illustration</option>
-                                                        <option>Fullbody Sketch</option>
-                                                        <option>Fullbody Illustration</option>
-                                                        <option>Full Illustration</option>
+                                                        <option>Please choose..</option>
+                                                        <optgroup label="Portrait">
+                                                            <option>Sketch</option>
+                                                            <option>Speedpaint</option>
+                                                            <option>Illustration</option>
+                                                        </optgroup>
+                                                        <optgroup label="Fullbody">
+                                                            <option>Sketch</option>
+                                                            <option>Illustration</option>
+                                                            <option>Full Illustration</option>
+                                                        </optgroup>
                                                     </select>
                                                   </div>
-
+                                                <div class="form-group">
+                                                    <label class="form-control-label" for="formGroupExampleInput">Example label</label>
+                                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                                                </div>
                                                   <div class="form-group">
                                                     <label for="exampleFormControlTextarea1">Example textarea</label>
                                                     <textarea class="form-control" id="orderform_message" rows="3"></textarea>
@@ -123,7 +130,7 @@
                        
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-primary">Send Order</button>
                         </div>               
                         <!-- END OF CONTENT -->
                                         ...

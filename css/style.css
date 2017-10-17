@@ -274,6 +274,10 @@ li.description{
 .form-control {
     background-color: #1f2226;
 }
+.form-control:focus {
+    background-color: #1f2226;
+    color: #667280;
+}
 form, input, label {
     color: white;
 }
