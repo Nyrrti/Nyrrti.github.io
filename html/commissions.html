@@ -47,9 +47,6 @@
                                     <a class="nav-link" href="about.html">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="faq.html">FAQ</a>
-                                </li>
-                                <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
                             </ul>
@@ -77,7 +74,7 @@
                               <!-- Large modal -->
                                 <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Order Here</button>
 
-                                <div class="modal bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                                   <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <!-- START OF HEADER CONTENT -->
@@ -105,24 +102,23 @@
                                                     <label for="exampleFormControlSelect1">Commission Type</label>
                                                     <select class="form-control" id="exampleFormControlSelect1">
                                                         <option>Please choose..</option>
-                                                        <optgroup label="Portrait">
+                                                       
                                                             <option>Sketch</option>
                                                             <option>Speedpaint</option>
                                                             <option>Illustration</option>
-                                                        </optgroup>
-                                                        <optgroup label="Fullbody">
+                                        
                                                             <option>Sketch</option>
                                                             <option>Illustration</option>
                                                             <option>Full Illustration</option>
-                                                        </optgroup>
+                                                        
                                                     </select>
                                                   </div>
                                                 <div class="form-group">
-                                                    <label class="form-control-label" for="formGroupExampleInput">Example label</label>
+                                                    <label class="form-control-label" for="formGroupExampleInput">Reference Links</label>
                                                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
                                                 </div>
                                                   <div class="form-group">
-                                                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                                                    <label for="exampleFormControlTextarea1">Description</label>
                                                     <textarea class="form-control" id="orderform_message" rows="3"></textarea>
                                                   </div>
                                             </form>
@@ -243,7 +239,7 @@
                         <div class="card-body card-bg">
                             <h3 class="py-2">Speedpaint Portrait</h3>
                             <h4 class="price">&euro;85,-</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p class="card-text">A painted portrait on a simple background.</p>
                             <p class="card-text-sm">
                                 * Please note that these aren't refined finished works! These have a more painterly style and are not that detailed.
                             </p>
@@ -283,9 +279,13 @@
                         <div class="card-body card-bg">
                             <h3 class="py-2">Portrait Illustration</h3>
                             <h4 class="price">&euro;200,-</h4>
-                            <p class="card-text">
-                                One fully colored character with a partial background.
-                            </p>
+                               <ul class="description">
+                                    <li class="description">One character for base pricing.</li>
+                                    <li class="description">One additional character is allowed for additional cost.</li>
+                                    <li class="description"> Detailed character(s) and backgrounds.</li>
+                                    <li class="description"> Average completion time is 6 days.</li>
+                                </ul>
+                            
                         </div>
                             <div class="card-footer footer-bg">
                                 <small class="waitlist">Currently <span class="orange">closed</span></small>
@@ -322,10 +322,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-block card-bg">
+                        <div class="card-body card-bg">
                             <h3 class="py-2">Fullbody Sketch</h3>
-                            <h4 class="card-title">&euro;40,-</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <h4 class="card-title">&euro;60,-</h4>
+                            <p class="card-text">Sketch of a fullbody character with no background.</p>
                         </div>
                             <div class="card-footer footer-bg">
                                 <small class="waitlist">Currently <span class="orange">closed</span></small>
@@ -360,10 +360,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-block card-bg">
+                        <div class="card-body card-bg">
                             <h3 class="py-2">Fullbody Illustration</h3>
-                            <h4 class="card-title">&euro;40,-</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <h4 class="card-title">&euro;300,-</h4>
+                             <ul class="description">
+                                    <li class="description">One character for base pricing.</li>
+                                    <li class="description">One additional character is allowed for additional cost.</li>
+                                    <li class="description"> Detailed character(s)</li>
+                                    <li class="description"> Average completion time is 6 days.</li>
+                                </ul>
                         </div>
                             <div class="card-footer footer-bg">
                                 <small class="waitlist">Currently <span class="orange">closed</span></small>
@@ -398,7 +403,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-block card-bg">
+                        <div class="card-body card-bg">
                             <h3 class="py-2">Full Illustration</h3>
                             <h4 class="card-title">&euro;400,-*</h4>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -431,9 +436,6 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about.html">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="faq.html">FAQ</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>

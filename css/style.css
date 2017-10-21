@@ -55,11 +55,11 @@ p.email {
 }
 
 p.card-text {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 p.card-text-sm {
-    font-size: 0.8em;
+    font-size: 0.85em;
     color: #667080;
 }
 
@@ -384,7 +384,7 @@ form, input, label {
     }
     
     p.card-text {
-        font-size: 0.9em;
+        font-size: 0.95em;
         text-align: center;    
     }
     
