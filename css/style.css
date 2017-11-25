@@ -207,6 +207,8 @@ a:hover {
 
 .topnav li{
     background-color: #111214;
+    padding-top: 4px;
+    padding-bottom: 4px;
     margin-bottom: 1px;
 }
 
