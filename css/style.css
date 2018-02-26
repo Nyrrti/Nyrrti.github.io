@@ -223,6 +223,13 @@ a:hover {
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: #617ed1;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 li.icons {
     width: 40px;
     height: 40px;
@@ -234,6 +241,11 @@ li.icons {
     width: 42px;
     height: 42px; 
 }
+
+.contacticon {
+    width: 34px;
+    height: 34px; 
+}
 /* COMMISSION LIST */
 
 .commlist {
@@ -242,15 +254,15 @@ li.icons {
 }
 /* CONTACT FORM */
 .contactbg {
-    background-color: #292d33;
-    border: 1px dotted #08384d;
+    background-color: #131926;
+    border: 1px dotted #293966;
 }
 
 .form-control {
-    background-color: #1f2226;
+    background-color: #0d121c;
 }
 .form-control:focus {
-    background-color: #1f2226;
+    background-color: #0a0d14;
     color: #667280;
 }
 form, input, label {
