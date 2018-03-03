@@ -1,15 +1,15 @@
 body {
-    background-color: #1c212b;
+    background-color: #212733;
 }
 /*  #131926 */
 .navbg {
-    background-color: #131926;
+    background-color: #141b29;
 }
 
 /* PARAGRAPH STYLES */
 p {
     font-family: 'Open Sans', 'arial', Helvetica, sans-serif;
-    color: #8e919e;
+    color: #a8adbf;
 }
 
 p.logo {
@@ -42,8 +42,8 @@ p.logosub {
     }
 
 p.text {
-    font-size: 0.9375rem;
-    line-height: 23px;
+    font-size: 0.95rem;
+    line-height: 25px;
 }
 
 p.description {
@@ -81,7 +81,7 @@ small.waitlist {
 }
 /* HR TAG STYLING */
 hr.style2 { 
-    margin: 8px;
+    margin: 8px 0 8px 0;
     border: 0; 
     border-bottom: 1px solid #434c54; 
 }
