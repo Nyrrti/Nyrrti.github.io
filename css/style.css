@@ -233,7 +233,7 @@ ul {
 li.icons {
     width: 40px;
     height: 40px;
-    margin: 25px 8px 25px 8px;
+    margin: 25px 6px 25px 6px;
     border: 0px dotted #404447;
 }
 
@@ -250,7 +250,7 @@ li.icons {
 
 .commlist {
     color: #667180;
-    padding: .5rem;
+    padding: .36rem;
 }
 /* CONTACT FORM */
 .contactbg {
